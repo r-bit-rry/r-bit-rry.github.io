@@ -64,13 +64,13 @@ content:
         quote: >
           "Building the digital fortresses of the future, one line of code at a time, with the Check Point Software Technologies team, crafting solutions so secure, they make Fort Knox look like a piggy bank!"
         description: |
-          Starting as a Security Analyst and progressing to Software Developer and Full Stack Developer.
-          Initially, as a Security Analyst, the individual focused on network traffic analysis and identifying data patterns leveraging a lot of <mark>Regular Expressions</mark>.
-          Moving on to a Software Developer role, I developed a reverse engineering solution, for auto-detection of malicious traffic using <mark>Python</mark> and <mark>C/C++</mark>, created big-data research tools for profiling network protocols, and developed automation infrastructure for web-platform services.
-          As a Full Stack Developer, I designed and developed server-side API code with <mark>Java</mark>, <mark>Spring Framework</mark>, and <mark>Spring-Security</mark>, emphasizing secure sessions. I also engaged in front-end development using <mark>AngularJS</mark>, and conducted end-to-end testing with tools like <mark>Grunt</mark>, <mark>Protractor</mark>, and <mark>Selenium</mark>.
-          In my final role as a Software Developer on the Telcom team, I designed and developed a secure server-side API for large Telecom corporations using a <mark>PHP5</mark>/<mark>Postgresql</mark>/<mark>Apache</mark> stack. I conducted end-to-end testing using <mark>Junit</mark> and maintained the product lifecycle with <mark>Jenkins</mark> Pipelines.
-          I further developed server-side components with <mark>Python</mark> and managed deployment with <mark>Puppet</mark>, orchestrating Postgresql clustering and replication for failsafe operation.
-          Additionally, they worked on product development across multiple distributed virtualized platforms, including Gaia (Chekpoint Proprietery OS), Windows Server, and RHEL.
+          Starting as a Security Analyst and progressing to Software Developer and Full Stack Developer.  
+          Initially, as a Security Analyst, the individual focused on network traffic analysis and identifying data patterns leveraging a lot of <mark>Regular Expressions</mark>.  
+          Moving on to a Software Developer role, I developed a reverse engineering solution, for auto-detection of malicious traffic using <mark>Python</mark> and <mark>C/C++</mark>, created big-data research tools for profiling network protocols, and developed automation infrastructure for web-platform services.  
+          As a Full Stack Developer, I designed and developed server-side API code with <mark>Java</mark>, <mark>Spring Framework</mark>, and <mark>Spring-Security</mark>, emphasizing secure sessions. I also engaged in front-end development using <mark>AngularJS</mark>, and conducted end-to-end testing with tools like <mark>Grunt</mark>, <mark>Protractor</mark>, and <mark>Selenium</mark>.  
+          In my final role as a Software Developer on the Telcom team, I designed and developed a secure server-side API for large Telecom corporations using a <mark>PHP5</mark>/<mark>Postgresql</mark>/<mark>Apache</mark> stack. I conducted end-to-end testing using <mark>Junit</mark> and maintained the product lifecycle with <mark>Jenkins</mark> Pipelines.  
+          I further developed server-side components with <mark>Python</mark> and managed deployment with <mark>Puppet</mark>, orchestrating Postgresql clustering and replication for failsafe operation.  
+          Additionally, they worked on product development across multiple distributed virtualized platforms, including Gaia (Chekpoint Proprietery OS), Windows Server, and RHEL.  
 
   - title: Education
     layout: list
@@ -90,7 +90,7 @@ content:
       - layout: top-middle
         title: Patent
         sub_title: UPDATING A STATE OF A CLIENT DEVICE USING A LIMITED EVENT SIZE PROTOCOL
-        caption: 411583-US-NP · Filed May 26, 2022411583
+        caption: 411583-US-NP · Filed May 26, 2022
       
       - layout: top-middle
         title: Final Project
@@ -105,11 +105,11 @@ content:
         sub_title: SII-the standards institution of israel Central Committee Member
         caption: August 2020 - Present
         description: |
-          Member of the Central Comitee for Technology and Information.
-          Member of the Cyber Comitee.
-          Member of Biometrics Commitee.
+         - Member of the Central Comitee for Technology and Information.
+         - Member of the Cyber Comitee.
+         - Member of Biometrics Commitee.
 
-  - title: All work and no fun makes Jack a dull boy
+  - title: All work and no fun makes Roy a dull boy
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in cyber security and software engineering some of my other interests and hobbies are:
