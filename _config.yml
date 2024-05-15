@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: r-bit-rry/r-bit-rry.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -23,115 +23,109 @@ linkedin_username: roy-belio
 # About Section
 about_title: WHOAMI
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Enthusiast senior software engineer, with over 10 years of experience, ready to passionately tackle any challenge that can be solved with a piece of code.
+about_content: |
+  Enthusiast software engineer, with over 10 years of experience, ready to passionately tackle any challenge that can be solved with a piece of code.
 
   I am most skilled in: <mark>C#/.NET</mark>, <mark>Python</mark> and <mark>Rust</mark>
 
 content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
+        border: weak
         title: Microsoft
         link: www.microsoft.com
-        # link_text: boringcompany.com
         sub_title: Software Developer Engineer II @ MSEC
         caption: May 2020 - Present
-        quote: >
-          "Tackling the puzzles of the 21st century by digging holes so deep we're expecting to find dinosaur fossils, and whipping up solutions so revolutionary, they make *Microsoft Defender for Enterprise* look like a rubber duck in a tech pond."
-        description: | # this will include new lines to allow paragraphs
-          - **Advanced <mark>Rust</mark>-based project in cross-platform domain:**
-            - Ensured <mark>MacOS</mark> compliance and achieved Microsoft-signed product status
-            - Pioneered new configuration for <mark>Linux</mark> and <mark>MacOS</mark> to enhance client autonomy
-            - Established robust low-level integration test to bolster release confidence and project decoupling
-            - Transitioned Glob Patterns logic to correlation backend, resolving accuracy issues and optimizing resource consumption
+        description: |
+          **<mark>Rust</mark>-based project in cross-platform domain:**
+          - Ensured <mark>MacOS</mark> compliance and achieved Microsoft-signed product status
+          - Pioneered new configuration for <mark>Linux</mark> and <mark>MacOS</mark> to enhance client autonomy
+          - Established robust low-level integration test to bolster release confidence and project decoupling
+          - Transitioned Glob Patterns logic to correlation backend, resolving accuracy issues and optimizing resource consumption
 
-          - **Key contributor to MDC (Microsoft Defender for Containers) integration Qualys comparison team:**
-            - Deployed <mark>Rust</mark>-based binary, scrapers, and backend logic for favorable comparison with Qualys
-            - Enhanced backend support for developer packages vulnerabilities, adding <mark>GitHub Advisory</mark> vulnerabilities DB
-            - Resolved bugs in Main <mark>.NET4.5</mark> client and expanded browser extensions collection for cross-platform clients
+          **Key contributor to MDC (Microsoft Defender for Containers) integration Qualys comparison team:**
+          - Deployed <mark>Rust</mark>-based binary, scrapers, and backend logic for favorable comparison with Qualys
+          - Enhanced backend support for developer packages vulnerabilities, adding <mark>GitHub Advisory</mark> vulnerabilities DB
+          - Resolved bugs in Main <mark>.NET4.5</mark> client and expanded browser extensions collection for cross-platform clients
 
-          - **Instrumental in cross-platform collection of firmware information:**
-            - Led hardware and firmware detection and data collection research and design across all platforms (Windows, Linux, MacOS), across 3 different clients in different technologies <mark>C++</mark>, <mark>.NET</mark>, <mark>Rust</mark>
-            - Developed <mark>Lenovo</mark> spider/scraper and contributed to pipeline for successful firmware support delivery
-            - Handled special collection tasks for high-profile threats, implementing collection code for critical CVEs
-            - Migrated the browser extension collection to cross-platform clients
+          **Instrumental in cross-platform collection of firmware information:**
+          - Led hardware and firmware detection and data collection research and design across all platforms (Windows, Linux, MacOS), across 3 different clients in different technologies <mark>C++</mark>, <mark>.NET</mark>, <mark>Rust</mark>
+          - Developed <mark>Lenovo</mark> spider/scraper and contributed to pipeline for successful firmware support delivery
+          - Handled special collection tasks for high-profile threats, implementing collection code for critical CVEs
+          - Migrated the browser extension collection to cross-platform clients
 
-          - **Pivotal role in addressing <mark>log4j</mark> vulnerability:**
-            - Contributed critical code and expertise for accurate detection (Java ARchive parsing and metadata collection)
-            - Expanded client application support for key applications like <mark>Defender</mark>, <mark>Pulse Secure</mark>, <mark>WebLogic</mark>, <mark>Tableau</mark>, <mark>VMware</mark>, and <mark>PHP</mark>
-            - Improved team accuracy by resolving issues across various applications and aiding vendor team onboarding
+          **Pivotal role in addressing <mark>log4j</mark> vulnerability:**
+          - Contributed critical code and expertise for accurate detection (Java ARchive parsing and metadata collection)
+          - Expanded client application support for key applications like <mark>Defender</mark>, <mark>Pulse Secure</mark>, <mark>WebLogic</mark>, <mark>Tableau</mark>, <mark>VMware</mark>, and <mark>PHP</mark>
+          - Improved team accuracy by resolving issues across various applications and aiding vendor team onboarding
 
-          - **Developed novel solutions:**
-            - Deigned, developed and patented an alternative network protocol to sync data between our clients and servers, today saving Microsoft tens of millions of dollars each year
-            - Designed and developed a solution based of windows kernel and NTFS to easily scan and collect metadata from executables and files of intrest using the Master File Table
+          **Developed novel solutions:**
+          - Deigned, developed and patented an alternative network protocol to sync data between our clients and servers, today saving Microsoft tens of millions of dollars each year
+          - Designed and developed a solution based of windows kernel and NTFS to easily scan and collect metadata from executables and files of intrest using the Master File Table
 
-          - **Led expansion of application coverage to downlevel servers:**
-            - Supported critical applications like <mark>VMware</mark>, <mark>Tomcat</mark>, <mark>PostgreSQL</mark>, and <mark>Node.js</mark>
-            - Improved infrastructure through security enhancements and rollout processes
-            - Upgraded service infrastructure by improving authentication mechanisms and configuration generation <mark>ADAL</mark> to <mark>MSAL</mark>
+          **Led expansion of application coverage to downlevel servers:**
+          - Supported critical applications like <mark>VMware</mark>, <mark>Tomcat</mark>, <mark>PostgreSQL</mark>, and <mark>Node.js</mark>
+          - Improved infrastructure through security enhancements and rollout processes
+          - Upgraded service infrastructure by improving authentication mechanisms and configuration generation <mark>ADAL</mark> to <mark>MSAL</mark>
 
-          - **Ownership and Contribution to Normalization Service:**
-            - Took ownership of the normalization service, addressing critical accuracy issues to maintain high KPIs
-            - Collaborated with the Vendor team to fix critical training issues and numerous accuracy problems
-            - Improved service compliance and security by enhancing normalization processes
-            - Played a key role in ensuring accurate data normalization for high-quality outcomes poised for GA release
+          **Ownership and Contribution to Normalization Service:**
+          - Took ownership of the normalization service, addressing critical accuracy issues to maintain high KPIs
+          - Collaborated with the Vendor team to fix critical training issues and numerous accuracy problems
+          - Improved service compliance and security by enhancing normalization processes
+          - Played a key role in ensuring accurate data normalization for high-quality outcomes poised for GA release
 
-          - **Proven software engineer with expertise in:**
-            - Implementing and refactoring complex codebases
-            - Integrating user experience enhancements
-            - Mastering new technologies rapidly
-            - Strong foundation in <mark>C#</mark> development and commitment to continuous learning
+          **Proven software engineer with expertise in:**
+          - Implementing and refactoring complex codebases
+          - Integrating user experience enhancements
+          - Mastering new technologies rapidly
+          - Strong foundation in <mark>C#</mark> development and commitment to continuous learning
 
       - layout: left
+        border: weak
         title: INFINIDAT
         link: www.infinidat.com
-        # link_text: boringcompany.com
         sub_title: Senior Python Developer @ Big Data Team
         caption: November 2017 - May 2020
-        quote: >
-          "Diving into the digital abyss with the Infinidat Big Data Team, crafting Python spells so potent, they make other tech solutions look like they're still stuck in the floppy disk era!"
-        description: | # this will include new lines to allow paragraphs
-          - **Large-Scale Product Development:**
-            - Developed products to collect, parse, aggregate, mutate, and expose data from deployed Infinidat systems for customer and internal use
+        description: |
+          **Large-Scale Product Development:**
+          - Developed products to collect, parse, aggregate, mutate, and expose data from deployed Infinidat systems for customer and internal use
 
-          - **Python Distributions:**
-            - Created relocatable <mark>Python</mark> distributions for open-source use across multiple platforms and architectures
+          **Python Distributions:**
+          - Created relocatable <mark>Python</mark> distributions for open-source use across multiple platforms and architectures
 
-          - **Code Migration:**
-            - Spearheaded code migration for multiple projects from <mark>Python 2</mark> to <mark>Python 3</mark>
+          **Code Migration:**
+          - Spearheaded code migration for multiple projects from <mark>Python 2</mark> to <mark>Python 3</mark>
 
       - layout: left
         title: Check Point Software Technologies
         link: www.checkpoint.com
         sub_title: Software Engineer
         caption: Auguest 2014 - November 2017
-        quote: >
-          "Building the digital fortresses of the future, one line of code at a time, with the Check Point Software Technologies team, crafting solutions so secure, they make Fort Knox look like a piggy bank!"
         description: |
-          - **Security Analyst:**
-            - Focused on network traffic analysis and identifying data patterns using <mark>Wireshark</mark> and <mark>tcpdump</mark>
-            - Leveraged and mastered <mark>Regular Expressions</mark> for pattern recognition
+          **Security Analyst:**
+          - Focused on network traffic analysis and identifying data patterns using <mark>Wireshark</mark> and <mark>tcpdump</mark>
+          - Leveraged and mastered <mark>Regular Expressions</mark> for pattern recognition
 
-          - **Software Developer:**
-            - Developed reverse engineering solution for auto-detection of malicious traffic using <mark>Python</mark> and <mark>C/C++</mark>
-            - Created big-data research tools for profiling network protocols
-            - Developed automation infrastructure for web-platform services
+          **Software Developer:**
+          - Developed reverse engineering solution for auto-detection of malicious traffic using <mark>Python</mark> and <mark>C/C++</mark>
+          - Created big-data research tools for profiling network protocols
+          - Developed automation infrastructure for web-platform services
 
-          - **Full Stack Developer:**
-            - Designed and developed server-side API code with <mark>Java</mark>, <mark>Spring Framework</mark>, and <mark>Spring-Security</mark>
-            - Engaged in front-end development using <mark>AngularJS</mark>
-            - Conducted end-to-end testing with tools like <mark>Grunt</mark>, <mark>Protractor</mark>, and <mark>Selenium</mark>
+          **Full Stack Developer:**
+          - Designed and developed server-side API code with <mark>Java</mark>, <mark>Spring Framework</mark>, and <mark>Spring-Security</mark>
+          - Engaged in front-end development using <mark>AngularJS</mark>
+          - Conducted end-to-end testing with tools like <mark>Grunt</mark>, <mark>Protractor</mark>, and <mark>Selenium</mark>
 
-          - **Software Developer (Telecom Team):**
-            - Designed and developed secure server-side API for large Telecom corporations using <mark>PHP5</mark>/<mark>Postgresql</mark>/<mark>Apache</mark> stack
-            - Conducted end-to-end testing using <mark>Junit</mark> and maintained product lifecycle with <mark>Jenkins</mark> Pipelines
-            - Developed server-side components with <mark>Python</mark> and managed deployment with <mark>Puppet</mark>
-            - Orchestrated Postgresql clustering and replication for failsafe operation
+          **Software Developer (Telecom Team):**
+          - Designed and developed secure server-side API for large Telecom corporations using <mark>PHP5</mark>/<mark>Postgresql</mark>/<mark>Apache</mark> stack
+          - Conducted end-to-end testing using <mark>Junit</mark> and maintained product lifecycle with <mark>Jenkins</mark> Pipelines
+          - Developed server-side components with <mark>Python</mark> and managed deployment with <mark>Puppet</mark>
+          - Orchestrated Postgresql clustering and replication for failsafe operation
 
-          - **Product Development:**
-            - Worked on product development across multiple distributed virtualized platforms, including Gaia (Checkpoint Proprietary OS), Windows Server, and RHEL
+          **Product Development:**
+          - Worked on product development across multiple distributed virtualized platforms, including Gaia (Checkpoint Proprietary OS), Windows Server, and RHEL
 
   - title: Education
     layout: list
@@ -145,8 +139,8 @@ content:
         description: |
           During my time at The Technion I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about latest technologies used in the industry.
 
-  - title: Contributions # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Contributions
+    layout: list
     content:
       - layout: top-middle
         title: Patent
@@ -172,7 +166,7 @@ content:
 
   - title: All work and no fun makes Roy a dull boy
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       Alongside my interests in cyber security and software engineering some of my other interests and hobbies are:
       - Mountaineering and Hiking
       - Playing classical music on the guitar
