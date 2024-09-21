@@ -15,18 +15,19 @@ website: https://github.com/r-bit-rry
 darkmode: true
 
 # Social links
-github_username:  r-bit-rry
+github_username: r-bit-rry
 stackoverflow_username: "2250010"
 linkedin_username: roy-belio
-
 
 # About Section
 about_title: WHOAMI
 about_profile_image: images/profile.jpg
 about_content: |
-  Enthusiast, <mark>Linux</mark> first, software engineer, with over 10 years of experience, ready to passionately tackle any challenge that can be solved with a piece of code.
-  
-  I am most skilled in: <mark>C#/.NET</mark>, <mark>Python</mark> and <mark>Rust</mark> and Cross Platform Development
+  Enthusiast, <mark>Linux</mark> first, software engineer, with over 10 years of experience, ready to passionately tackle any challenge that can be solved with a piece of code. I have a proven track record in developing cross-platform solutions and leading projects in <mark>C#/.NET</mark>, <mark>Python</mark>, and <mark>Rust</mark>.
+
+  Recently, I patented a protocol/algorithm that saves the Microsoft Security (MSEC) group tens of millions of dollars each year.
+
+  I am most skilled in: <mark>C#/.NET</mark>, <mark>Python</mark>, <mark>Rust</mark>, and Cross Platform Development.
 
 content:
   - title: Experience
@@ -36,7 +37,7 @@ content:
         border: weak
         title: Microsoft
         link: www.microsoft.com
-        sub_title: Software Developer Engineer II @ MSEC
+        sub_title: Software Developer Engineer II @ Microsoft Security (MSEC)
         caption: May 2020 - Present
         description: |
           **<mark>Rust</mark>-based client in cross-platform domain:**
@@ -46,8 +47,8 @@ content:
           **Domain leader in <mark>Microsoft Defender for Endpoint</mark> vulnerability management:**
             - Led the development of Threat Vulnerability Management's various endpoint clients.
             - Spearheaded the development of various scrapers/spiders for vulnerability feed collection.
-            - Led <mark>Hardware</mark> and <mark>Firmware</mark> detection research and design across all platforms (Windows, Linux, MacOS) using <mark>C++</mark>, <mark>.NET</mark>, and <mark>Rust</mark>.
-            - Managed the normalization service, maintaining high KPIs through <mark>CVE</mark> and <mark>CPE</mark> uniform naming.
+            - Led <mark>Hardware</mark> and <mark>Firmware</mark> detection research and design across all platforms (Windows, <mark>Linux</mark>, <mark>MacOS</mark>) using <mark>C++</mark>, <mark>.NET</mark>, and <mark>Rust</mark>.
+            - Owner of the normalization service, which was responsible for aggregating, learning, and defining Common Product Enumerations for MSEC services, maintaining high KPIs through <mark>CVE</mark> and <mark>CPE</mark> uniform naming.
 
           **Innovation in Solution Development:**
             - Designed and patented an alternative network protocol for data sync, saving Microsoft millions annually.
@@ -76,19 +77,19 @@ content:
         caption: November 2017 - May 2020
         description: |
           **Large-Scale Product Development:**
-          - Developed products to collect, parse, aggregate, mutate, and expose data from deployed Infinidat systems for customer and internal use
+            - Developed products to collect, parse, aggregate, mutate, and expose data from deployed Infinidat systems for customer and internal use.
 
           **Python Distributions:**
-          - Created relocatable <mark>Python</mark> distributions for open-source use across multiple platforms and architectures
+            - Created relocatable <mark>Python</mark> distributions for open-source use across multiple platforms and architectures.
 
           **Code Migration:**
-          - Spearheaded code migration for multiple projects from <mark>Python 2</mark> to <mark>Python 3</mark>
+            - Spearheaded code migration for multiple projects from <mark>Python 2</mark> to <mark>Python 3</mark>.
 
       - layout: left
         title: Check Point Software Technologies
         link: www.checkpoint.com
         sub_title: Software Engineer
-        caption: Auguest 2014 - November 2017
+        caption: August 2014 - November 2017
         description: |
           **Security Analyst:**
             - Analyzed network traffic and identified data patterns using <mark>Wireshark</mark> and <mark>tcpdump</mark>.
@@ -119,11 +120,11 @@ content:
       - layout: left
         title: Technion - Israel Institute of Technology
         caption: 2011 - 2016
-        sub_title: Industrial Engineering - Business Information systems
+        sub_title: Industrial Engineering - Business Information Systems
         quote: >
-          Established in 1912 in Haifa, Israel, is the country's oldest university and a pivotal force in the fields of science and engineering
+          Established in 1912 in Haifa, Israel, is the country's oldest university and a pivotal force in the fields of science and engineering.
         description: |
-          During my time at The Technion I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about latest technologies used in the industry.
+          During my time at The Technion, I learned most of my key skills that I have taken through my career, such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learned a lot about the latest technologies used in the industry.
 
   - title: Contributions
     layout: list
@@ -138,22 +139,22 @@ content:
         sub_title: Gamification of Goal Recognition Design Problems
         caption: March 2016
         description: |
-          Designing and implementing of Goal Recognition Design game to show the benefits of such algorithms. The GRD is an A.I problem set, algorithms that solve this problem set do so by reshaping the problems topology in order optimize Goal Recognition algorithms performance.
+          Designing and implementing a Goal Recognition Design game to show the benefits of such algorithms. The GRD is an A.I problem set; algorithms that solve this problem set do so by reshaping the problem's topology to optimize Goal Recognition algorithms' performance.
           Developed with <mark>Java</mark>, <mark>JavaFX</mark>, and <mark>Android</mark>.
       
       - layout: top-middle
-        title: Voluneteering
-        sub_title: SII-the standards institution of israel Central Committee Member
+        title: Volunteering
+        sub_title: SII-The Standards Institution of Israel Central Committee Member
         caption: August 2020 - Present
         description: |
-         - Member of the Central Comitee for Technology and Information.
-         - Member of the Cyber Comitee.
-         - Member of Biometrics Commitee.
+          - Member of the Central Committee for Technology and Information.
+          - Member of the Cyber Committee.
+          - Member of the Biometrics Committee.
 
   - title: All work and no fun makes Roy a dull boy
     layout: text
     content: |
-      Alongside my interests in cyber security and software engineering some of my other interests and hobbies are:
+      Alongside my interests in cyber security and software engineering, some of my other interests and hobbies are:
       - Mountaineering and Hiking
       - Playing classical music on the guitar
       - Bachata Dancing
